@@ -1,0 +1,11 @@
+:, @, ^, *, %
+1. Find a word, then a colon, then another word
+2. Find a word, then a colon, then another separator, then another word
+3. Find a word, then an @, then another word
+4. Find a word, then an ^, then another word
+5. Find a word, then an *, then another word
+6. Find a word, then a %, then another word
+7. Find two hashtags to know that you've reached the end of a key-value pair
+
+//Last
+Find a word, then a separator, but no value
