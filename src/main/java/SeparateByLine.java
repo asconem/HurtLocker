@@ -1,6 +1,6 @@
 public class SeparateByLine {
 
-    public static String[] separate(String text) {
+    public static String[] separateByLine(String text) {
         String[] lines = text.split("##");
         return lines;
     }
