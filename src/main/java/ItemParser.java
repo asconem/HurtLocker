@@ -2,14 +2,7 @@ import java.util.regex.Pattern;
 
 public class ItemParser {
 
-    public static Item parseItem(String line) throws IllegalArgumentException {
-        String name = null;
-        String price = null;
-        String type = null;
-        String expiration = null;
-
-        return new Item(name, price, type, expiration);
-    }
+    //Unsure of how to tie this all together
 
     public static String[] separateByWord(String line) {
         return line.split("[^a-zA-Z0-9/.]");

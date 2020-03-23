@@ -15,8 +15,8 @@ public class SearchTest {
     public void regTest1() {
         String str = "naMe:Milk";
         //Pattern p = Pattern.compile("\\w[:]\\w");
-        //
-        Pattern p = Pattern.compile("\\w[:]\\w");
+        //Pattern p = Pattern.compile("[....][:][....]");
+        Pattern p = Pattern.compile("");
         Matcher m = p.matcher(str);
 
         System.out.println(m.matches());
